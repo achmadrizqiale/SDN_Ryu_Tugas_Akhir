@@ -2,6 +2,8 @@
 
 Repositori ini dibuat untuk memenuhi Tugas Akhir mata kuliah Arsitektur Jaringan Terkini Prodi Teknik Komputer Fakultas Ilmu Komputer Universitas Brawijaya.
 
+![alt text](Resource/identity.png)
+
 ## Deskripsi Tugas Akhir: 
 Mengerjakan ulang semua tugas yang dikerjakan dari Tugas 1 sampai dengan Tugas 4 dalam satu dokumentasi utuh dan dipublikasikan melalui akun personal anda di github.com. Dokumentasi yang dimaksud ditulis dalam README.md dgn format Markdown
 Artinya dalam tugas tersebut terdiri 4 bagian utama dengan rincian sebagai berikut:
