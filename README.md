@@ -6,7 +6,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir mata kuliah Arsitektur Jaringan
 Mengerjakan ulang semua tugas yang dikerjakan dari Tugas 1 sampai dengan Tugas 4 dalam satu dokumentasi utuh dan dipublikasikan melalui akun personal anda di github.com. Dokumentasi yang dimaksud ditulis dalam README.md dgn format Markdown
 Artinya dalam tugas tersebut terdiri 4 bagian utama dengan rincian sebagai berikut:
 
-### 1. Buat EC2 Instance di AWS Academy:
+### 1. [Buat EC2 Instance di AWS Academy](Part_1/):
 
 - Name and tags: Tugas Akhir
 - OS Images: Ubuntu Server 22.04 LTS 64 bit
@@ -24,6 +24,6 @@ Artinya dalam tugas tersebut terdiri 4 bagian utama dengan rincian sebagai berik
 ### 4. Buat aplikasi Ryu  Shortest Path Routing seperti pada [Tugas 4](https://github.com/abazh/learn_sdn/tree/main/SPF)
 - Melakukan percobaan aplikasi SPF.
 
-## Sneakpeek
+## Sneakpeek (Part 1)
 
 ![alt text](Resource/Part_1.gif)
