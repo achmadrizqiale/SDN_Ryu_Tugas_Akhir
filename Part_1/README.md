@@ -39,4 +39,4 @@ Configure storage: 30 GiB, gp3
 
 7. Silahkan kembali menuju laman *console* **Vocareum Labs** dan silahkan mengetikkan perintah *ssh -i .ssh/labsuser.pem [alamat]*. Dengan *[alamat]* adalah alamat yang telah anda dapatkan pada laman **Connect to instances** sebelumnya. Sebagai contoh: ``ssh -i .ssh/labsuser.pem ubuntu@ec2-34-238-119-97.compute-1.amazonaws.com``
 
-![alt text](Screenshots/i.png)
+![alt text](Screenshots/l.png)
