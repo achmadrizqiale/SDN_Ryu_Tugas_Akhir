@@ -16,12 +16,15 @@ Artinya dalam tugas tersebut terdiri 4 bagian utama dengan rincian sebagai berik
 - Configure storage: 30 GiB, gp3.``
 - Setelah EC2 Instance siap, lakukan instalasi Mininet+OpenFlow, Ryu dll sesuai rujukan di [sini](https://awsacademy.instructure.com/courses/15355/discussion_topics/32566).
 
-### 2. Buat Custom Topology Mininet seperti pada [Tugas 2](https://drive.google.com/file/d/1P5X1yZ7M3bwaLmV8N0KNivZilSDYwJvJ/view).
+### 2. [Buat Custom Topology Mininet seperti pada Tugas 2](Part_2/).
+- [Tugas 2](https://drive.google.com/file/d/1P5X1yZ7M3bwaLmV8N0KNivZilSDYwJvJ/view)
 - 2 program mininet yang mendeskripsikan topology mininet 2 host dan 2 switch dan topology mininet 3 switch (loop) dengan 6 host
 - Melakukan percobaan pada topology mininet 3 switch (loop) dengan 6 host dengan penerapan STP (spanning tree protocol) dengan secara manual menulis flow pada masing-masing switch
-### 3. Buat aplikasi Ryu Load Balancer seperti pada [Tugas 3](https://github.com/abazh/learn_sdn/tree/main/LB)
+### 3. [Buat aplikasi Ryu Load Balancer seperti pada Tugas 3](Part_3/)
+- [Tugas 3](https://github.com/abazh/learn_sdn/tree/main/LB)
 - Melakukan percobaan aplikasi load balancer.
-### 4. Buat aplikasi Ryu  Shortest Path Routing seperti pada [Tugas 4](https://github.com/abazh/learn_sdn/tree/main/SPF)
+### 4. [Buat aplikasi Ryu  Shortest Path Routing seperti pada Tugas 4](Part_4/)
+- [Tugas 4](https://github.com/abazh/learn_sdn/tree/main/SPF)
 - Melakukan percobaan aplikasi SPF.
 
 ## Sneakpeek (Part 1)
