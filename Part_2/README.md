@@ -1,1 +1,67 @@
+# Part 2: Buat Custom Topology Mininet seperti pada [Tugas 2](https://drive.google.com/file/d/1P5X1yZ7M3bwaLmV8N0KNivZilSDYwJvJ/view).
 
+1. Membuat topology mininet 2 host dan 2 switch
+```python
+...
+        # Tambahkan node, switch, dan host
+        info( '*** Add switches\n')
+        s1 = self.addSwitch('s1')
+        s2 = self.addSwitch('s2')
+
+        info( '*** Add hosts\n')
+        h1 = self.addHost('h1', ip='10.1.0.1/24')
+        h2 = self.addHost('h2', ip='10.1.0.2/24')
+        
+     
+        info( '*** Add links\n')
+        self.addLink(s1, h1, 1, 1)
+        self.addLink(s2, h2, 1, 1)
+        self.addLink(s1, s2, 2, 2)
+...
+```
+
+![alt text](Screenshots/a.png)
+
+2. Mencoba topology mininet 2 host dan 2 switch yang telah dibuat.
+
+![alt text](Screenshots/b.png)
+
+3. Membuat topology mininet 3 switch (loop) dengan 6 host
+```python
+...
+        # Tambahkan node, switch, dan host
+        info( '*** Add switches\n')
+        s1 = self.addSwitch('s1')
+        s2 = self.addSwitch('s2')
+        s3 = self.addSwitch('s3')
+
+        info( '*** Add hosts\n')
+        h1 = self.addHost('h1', ip='10.1.0.1/24')
+        h2 = self.addHost('h2', ip='10.1.0.2/24')
+        h3 = self.addHost('h3', ip='10.1.0.3/24')
+        h4 = self.addHost('h4', ip='10.1.0.4/24')
+        h5 = self.addHost('h5', ip='10.1.0.5/24')
+        h6 = self.addHost('h6', ip='10.1.0.6/24')
+        
+     
+        info( '*** Add links\n')
+        self.addLink(s1, s2, 4, 2)
+        self.addLink(s1, s3, 1, 3)
+        self.addLink(s2, s3, 1, 4)
+        self.addLink(s1, h1, 2, 1)
+        self.addLink(s1, h2, 3, 1)
+        self.addLink(s2, h3, 3, 1)
+        self.addLink(s2, h4, 4, 1)
+        self.addLink(s3, h5, 2, 1)
+        self.addLink(s3, h6, 1, 1)
+...
+```
+![alt text](Screenshots/c.png)
+
+4. Menjalankan topology mininet 3 switch (loop) dengan 6 host.
+
+![alt text](Screenshots/d.png)
+
+5. Melakukan percobaan pada topology mininet 3 switch (loop) dengan 6 host dengan penerapan STP (spanning tree protocol) dengan secara manual menulis flow pada masing-masing switch.
+
+![alt text](Screenshots/e.png)
