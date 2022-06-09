@@ -23,3 +23,7 @@ Artinya dalam tugas tersebut terdiri 4 bagian utama dengan rincian sebagai berik
 - Melakukan percobaan aplikasi load balancer.
 ### 4. Buat aplikasi Ryu  Shortest Path Routing seperti pada [Tugas 4](https://github.com/abazh/learn_sdn/tree/main/SPF)
 - Melakukan percobaan aplikasi SPF.
+
+## Sneakpeek
+
+![alt text](Resource/Part_1.gif)
